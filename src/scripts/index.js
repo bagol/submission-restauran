@@ -1,5 +1,7 @@
 import 'regenerator-runtime'; /* for async await transpile */
 import '../styles/main.css';
+import '../styles/hero.css';
+import '../styles/responsive.css';
 
 const { restaurants } = require('../data/DATA.json');
 const menu = document.querySelector('#menu');
